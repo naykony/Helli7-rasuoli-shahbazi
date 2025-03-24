@@ -116,3 +116,48 @@ body {
   background-color: var(--primary-color);
   color: var(--white);
 }
+
+
+
+.hero {
+  padding: 80px 0;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 555px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.hero-content h1 strong {
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
