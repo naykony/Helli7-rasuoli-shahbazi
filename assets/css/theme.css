@@ -58,3 +58,61 @@ body {
   background-color: var(--primary-color);
   color: var(--white);
 }
+
+
+.header {
+  padding: 40px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 36px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.auth-buttons .sign-in {
+  color: var(--secondary-color);
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.auth-buttons .sign-up {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--primary-color);
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.auth-buttons .sign-up:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
