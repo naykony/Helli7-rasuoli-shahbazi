@@ -161,3 +161,62 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.stats {
+  padding: 80px 0;
+}
+
+.stats .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+}
+
+.stat-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 125px;
+  width: 1px;
+  background-color: #eeeff2;
+}
+
+.stat-icon {
+  width: 55px;
+  height: 55px;
+  background-color: #ffecec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.stat-icon i {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.stat-info h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.stat-info p {
+  font-size: 20px;
+  color: var(--text-color);
+}
