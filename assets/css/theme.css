@@ -220,3 +220,56 @@ body {
   font-size: 20px;
   color: var(--text-color);
 }
+
+.features {
+  padding: 80px 0;
+}
+
+.features .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-image {
+  flex: 1;
+}
+
+.features-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.features-content {
+  flex: 1;
+  max-width: 430px;
+  margin-left: 100px;
+}
+
+.features-content h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.features-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.features-content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.features-content ul li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.features-content ul li i {
+  color: #2fab73;
+  margin-right: 10px;
+}
